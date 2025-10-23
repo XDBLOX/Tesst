@@ -28,6 +28,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    z-index: 200;
 }
 
 .box{
@@ -70,7 +71,7 @@
     width: 100px;
     height: 100px;
     left: 1350px;
-    bottom: 500px;
+    bottom: 50px;
     background-color: lightskyblue;
     border: 2px solid dodgerblue;
     border-radius: 10px;
