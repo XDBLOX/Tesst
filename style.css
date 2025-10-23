@@ -1,0 +1,132 @@
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: dodgerblue;
+  color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+
+
+.relative{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    border: 2px solid dodgerblue;
+    top: 160px;
+    left: 50px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box{
+    background-color: lightgray;
+    width: 200px;
+    height: 170px;
+    position: relative;
+    top: 170px;
+}
+
+.absolute{
+    position: absolute;
+    z-index: 60;
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    left: 50px;
+    top: 330px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lorem{
+    margin-top: 190px;
+}
+
+.overflow{
+    width: 250px;
+    height: 100px;
+    border: 2px solid darkblue;
+    overflow: auto;
+}
+
+.fixed{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    left: 1350px;
+    bottom: 500px;
+    background-color: lightskyblue;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 90px;
+}
+
+
+
+
+.red{
+    background-color: red;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.blue{
+    background-color: blue;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 65px;
+    top: 700px;
+}
+
+
+.green{
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    z-index: 100;
+    top: 730px;
+    left: 90px;
+}
